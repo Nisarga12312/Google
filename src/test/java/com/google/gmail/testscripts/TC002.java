@@ -16,6 +16,7 @@ public class TC002 extends BaseTest {
 	public void testToDeletAddedProductFromODP() {
 		HomePage hp = new HomePage(driver,webActionUtil);		
 		//Getting testdata from XL
+		int a=10;
 		String sheetName = "TC002";
 		String menuName = GenericXLLIbrary.getData(XL_PATH, sheetName, 1, 0);
 		String productId = GenericXLLIbrary.getData(XL_PATH, sheetName, 1, 1);
